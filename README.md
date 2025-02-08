@@ -1,5 +1,5 @@
 I beat the weak typing out of PHP and especially Laravel projects.
-Proudly sponsoring PHPStan for protecting my last remaining brain cellsm from further assaults.
+Proudly sponsoring PHPStan for protecting my last remaining brain cells from further assaults.
 
 All things considered PHP 8 is a 6/10 language, but only if you know what you're doing (i.e. you know what a 10/10 language looks like).
 At that point however, why would you stick with PHP? Ergo, when working with PHP enthusiasts I have to accept it being used like a 4/10 language,
