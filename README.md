@@ -8,6 +8,6 @@ On the other hand, I am coping with the immense drop in tooling quality in other
 PHP really is an absolute beast when it comes to tooling, that about evens out its 20+ years of lag in language design.
 
 Side projects:
-- ascii game in Scala 3 and Java Lanterna
+- Runescape-esque ascii game in Scala 3 and Java Lanterna (terminal based)
 - fullstack website in Scala 3, Akka Http, Twirl, htmx, vanilla CSS (frontend stack isn't set in stone yet)
-- 2d game in Rust using Macroquad
+- 2d game in Rust using Macroquad (not sure yet about the genre, I'm just figuring out how to draw rectangles and handling inputs)
