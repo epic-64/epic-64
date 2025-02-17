@@ -9,5 +9,5 @@ PHP really is an absolute beast when it comes to tooling, that about evens out i
 
 Side projects:
 - ascii game in Scala 3 and Java Lanterna
-- fullstack website in Scala 3, Akka Http, Twirl, htmx (frontend stack isn't set in stone yet)
+- fullstack website in Scala 3, Akka Http, Twirl, htmx, vanilla CSS (frontend stack isn't set in stone yet)
 - 2d game in Rust using Macroquad
