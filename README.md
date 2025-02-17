@@ -1,10 +1,13 @@
-I beat the weak typing out of PHP and especially Laravel projects.
-Proudly sponsoring PHPStan for protecting my last remaining brain cells from further assaults.
+PHP professional since 2013, Laravel since 2018.
+Proudly sponsoring PHPStan, for protecting my last remaining braincells from dealing with any untyped code ever again.
 
-All things considered PHP 8 is a 6/10 language, but only if you know what you're doing (i.e. you know what a 10/10 language looks like).
-At that point however, why would you stick with PHP? Ergo, when working with PHP enthusiasts I have to accept it being used like a 4/10 language,
-which makes me want to quit it even more. I have around 12000 hours of professional experience (with a few more thousands in side projects) with this garbage so please don't try to lecture me.
+Working on a cloud telephone system and a finance processing application has inspired me to look into immutability
+and functional programming. I regret that I was not informed about a lot of these concepts and languages that support them earlier.
 
-I am building tools and a website in Scala 3 until I'm good enough to do it professionally.
+On the other hand, I am coping with the immense drop in tooling quality in other languages.
+PHP really is an absolute beast when it comes to tooling, that about evens out its 20+ years of lag in language design.
 
-Also writing a game in Rust.
+Side projects:
+- ascii game in Scala 3 and Java Lanterna
+- fullstack website in Scala 3, Akka Http, Twirl, htmx (frontend stack isn't set in stone yet)
+- 2d game in Rust using Macroquad
