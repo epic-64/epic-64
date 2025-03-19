@@ -1,11 +1,8 @@
-PHP professional since 2013, Laravel since 2018.
-Proudly sponsoring PHPStan, for protecting my last remaining braincells from dealing with any untyped code ever again.
+I have used PHP at work since 2014, full time since 2018. I have outgrown it at this point and am no longer interested in PHP gigs.
+I'm looking forward transitioning professionally to a compiled language, most likely Scala, Java or C#.
 
-Working on a cloud telephone system and a finance processing application has inspired me to look into immutability, compile time type safety
-and functional programming. I regret that I haven't dived earlier into these concepts, and languages that support them.
-
-On the other hand, I am coping with the immense drop in tooling quality in other languages.
-PHP really is an absolute beast when it comes to tooling, that about evens out its 20+ years of lag in language design.
+I'm also toying around with Rust, and I heard great things about Go, but besides programming I also have other hobbies including drawing, gaming and blogging, and I can't learn every language in the universe.
+Scala as a language checks all the boxes for me. Unfortunately the job market for it seems to offer only elite jobs, which is not where I am, so I may have to pick an alternative.
 
 Side projects:
 - Runescape-esque ascii game in Scala 3 and Java Lanterna (terminal based)
