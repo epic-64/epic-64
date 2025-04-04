@@ -20,7 +20,7 @@ readonly class Person
         $this->age      = $birthDay->diffInYears(now());
 
         if ($this->age < 18) {
-            throw new RuntimeException("Sorry, not allowed");
+            throw new RuntimeException("Must be 18+");
         }
     }
 }
@@ -35,12 +35,13 @@ import java.time.{LocalDate, Period}
 case class Person(firstName: String, lastName: String, birthDay: LocalDate):
   val fullName: String = s"$firstName $lastName"
   val age: Int         = Period.between(birthDay, LocalDate.now()).getYears
-  require(age >= 18, "Sorry, not allowed")
+  require(age >= 18, "Must be 18+")
 
 val person = Person(firstName = "John", lastName = "Doe", birthDay = LocalDate.parse("1997-05-17"))
 ```
 
-I think about switching to the JVM professionally, most likely Java or Kotlin.
+Nothing too fancy is happening here. Just showing that compiled languages don't have to be scary, and instead can feel much more elegant.  
+I will soon publish an article with more complex examples of "Scala for PHP devs".
 
 Side projects:
 - Runescape-esque ascii game in Scala 3 and Java Lanterna (terminal based)
