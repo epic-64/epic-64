@@ -1,13 +1,51 @@
-I have used PHP at work since 2014, full time since 2018. I have outgrown it at this point and am no longer interested in PHP gigs.
-I'm looking forward transitioning professionally to a compiled language, most likely Scala, Java or C#.
+My favorite programming languages are Scala and Rust.  
 
-I'm also toying around with Rust, and I heard great things about Go, but besides programming I also have other hobbies including drawing, gaming and blogging, and I can't learn every language in the universe.
-Scala as a language checks all the boxes for me. Unfortunately the job market for it seems to offer only elite jobs, which is not where I am, so I may have to pick an alternative.
+I am using PHP a lot in my day job. It can get things done.  
+However my coding style has significantly shifted towards more static typing, generics, domain modeling and functional programming.
+
+Take this example:
+
+In PHP 8
+```php
+import Carbon\Carbon;
+
+readonly class Person
+{
+    public string $fullName;
+    public int $age;
+
+    public function __construct(public string $firstName, public string $lastName, public Carbon $birthDay)
+    {
+        $this->fullName = "$firstName $lastName";
+        $this->age      = $birthDay->diffInYears(now());
+
+        if ($this->age < 18) {
+            throw new RuntimeException("Sorry, not allowed");
+        }
+    }
+}
+
+$person = new Person(firstName: "Jane", lastName: "Doe", birthDay: Carbon::parse('1997-05-17'));
+```
+
+In Scala 3
+```scala
+import java.time.{LocalDate, Period}
+
+case class Person(firstName: String, lastName: String, birthDay: LocalDate):
+  val fullName: String = s"$firstName $lastName"
+  val age: Int         = Period.between(birthDay, LocalDate.now()).getYears
+  require(age >= 18, "Sorry, not allowed")
+
+val person = Person(firstName = "John", lastName = "Doe", birthDay = LocalDate.parse("1997-05-17"))
+```
+
+I think about switching to the JVM professionally, most likely Java or Kotlin.
 
 Side projects:
 - Runescape-esque ascii game in Scala 3 and Java Lanterna (terminal based)
-- fullstack website in Scala 3, Akka Http, Twirl, htmx, vanilla CSS (frontend stack isn't set in stone yet)
-- 2d game in Rust using Macroquad (not sure yet about the genre, I'm just figuring out how to draw rectangles and handling inputs)
+- fullstack website in Scala 3, Akka Http, Twirl, htmx, vanilla CSS
+- 2d game in Rust using Macroquad
 
 Previous side projects (live and ongoing):
 - https://rotolist.holonaut.io/ | a todolist application with recurring tasks | Laravel + Livewire
