@@ -7,7 +7,7 @@ Take this example:
 
 In PHP 8
 ```php
-import Carbon\Carbon;
+use Carbon\Carbon;
 
 readonly class Person
 {
@@ -40,7 +40,7 @@ case class Person(firstName: String, lastName: String, birthDay: LocalDate):
 val person = Person(firstName = "John", lastName = "Doe", birthDay = LocalDate.parse("1997-05-17"))
 ```
 
-Nothing too fancy is happening here. Just showing that compiled languages don't have to be scary, and instead can feel much more elegant.  
+Nothing too fancy is happening here. Just showing that compiled languages don't have to be scary, and instead can feel much more elegant.
 I will soon publish an article with more complex examples of "Scala for PHP devs".
 
 Side projects:
