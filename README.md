@@ -1,5 +1,7 @@
 Current side projects:
+- hackerman: Terminal based collection of minigames in Rust + Ratatui
 - Tiny Fields: 2D idle game in Rust + Macroquad
+  - WebAssembly build: https://tiny-fields.up.railway.app/
 
 Previous side projects (on hold / canceled)
 - Term Hero: Terminal based (ascii) idle game in Scala 3 + Java Lanterna
