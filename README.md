@@ -1,6 +1,5 @@
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=epic-64&theme=default)
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=epic-64&theme=default)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=epic-64&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=epic-64&theme=github_dark)
 
 Current side projects:
 - An RPG game engine core in Kotlin. Planning to wrap ktor around it to create a browser game, that should play like a mix between Shakes & Fidget and Path of Exile.
