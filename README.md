@@ -3,11 +3,14 @@
 
 ### Projects Overview
 
-| Category           | Project                                                                 | Stack                                | Status                                   |
-|--------------------|-------------------------------------------------------------------------|--------------------------------------|------------------------------------------|
-| **Currently working on** | **Season Arena**<br/>Browser game, mix of Shakes & Fidget and Dragon Age | Kotlin, ktor, raw HTML, raw CSS (variables, grid), raw JS (ESM, JSDoc)     | In development                           |
-| **Live**           | [Tiny Fields](https://tiny-fields.up.railway.app/)<br/>2D Runescape inspired idle game running in WebAssembly | Rust (Macroquad)                     | Proof of concept                         |
-| **Live**  | [Epic Scrolls](https://epic-scrolls.holonaut.io/)<br/>ChatGPT alternative with automatic note-taking and context management | Laravel, Livewire, Web Components    | Usable, outdated, unmaintained           |
-| **Live** | [Rotolist](https://rotolist.holonaut.io/)<br/>To-do list with recurring tasks | Laravel, Livewire                    | Usable, unmaintained |
-| **Side projects**  | **hackerman**<br/>Terminal minigames | Rust, Ratatui                        | Polishing for release as a cargo crate                   |
-| **Side projects**  | **Term Hero**<br/>Terminal-based ASCII idle game | Scala 3, Java Lanterna               | Abandoned, sometimes reusing code snippets/concepts in other projects                                |
+Check out the idle game I'm working on. Works best on mobile. No login.
+
+[![DAMidle](https://github.com/user-attachments/assets/c4fd2aa8-5294-42b7-be39-6d134c3f87ab)](https://damidle.com/)
+
+### Stack
+
+- Scala 3 + ScalaJS + Laminar is my jam
+- HTML + CSS is the GOAT
+- 10+ years of commercial experience with PHP
+- Forced to be good at JavaScript, like everyone else
+- Able to do damage in Python, Rust and Kotlin
